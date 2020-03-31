@@ -47,12 +47,12 @@ body {
 
 #emo {
     position: absolute;
-    height: 40em;
-    width: 40em;
+    height: 20em;
+    width: 20em;
     left: 50%;
     top: 50%;
-    margin-left: -20em;
-    margin-top: -20em;
+    margin-left: -10em;
+    margin-top: -10em;
     z-index: 100;
     visibility: hidden;
 }

@@ -26,8 +26,8 @@ function newimage() {
                             document.getElementById('image').setAttribute("src", urltocheck);
                         }
                         else {
-                            urltocheck = './res/images/' + imagenames[imagerng] + '.gif'
-                            document.getElementById('image').setAttribute("src", urltocheck);
+                            newimage();
+                            break;
                         }
                         break;
                     }
@@ -45,19 +45,19 @@ function check() {
         } else {
             correct = false;
         }
-        setTimeout(hidecontrols, 3000);
+        setTimeout(hidecontrols, 2000);
     }
 }
 
 var hidecontrols = function () {
 
     if (correct) {
-        document.getElementById('emo').setAttribute("src", './res/smiley/smile' + imagerng + '.jpg');
+        document.getElementById('emo').setAttribute("src", './res/smiley/smile' + imagerng + '.gif');
         console.log("si");
         newimage();
 
     } else {
-        document.getElementById('emo').setAttribute("src", './res/ops.JPG');
+        document.getElementById('emo').setAttribute("src", './res/ops.gif');
         console.log("no")
     }
 
