@@ -1,4 +1,4 @@
-var imagenames = ["befana", "camino", "carota", "denaro", "divano", "fanale", "farina", "ferita", "gelato", "lumaca", "manica", "matita", "mulino", "nuvola", "pecora", "ridere", "salame", "sedano", "sirena", "tavolo"];
+var imagenames = ["abaco", "acino", "asino", "baita", "baule", "boato", "buono", "cuoco", "cuore", "daino", "dieci", "faina", "fiaba"];
 var lastrng = 0;
 var imagerng;
 var correct;
