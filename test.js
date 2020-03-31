@@ -1,3 +1,4 @@
+//
 var imagenames = ["abaco", "acino", "asino", "baita", "baule", "boato", "buono", "cuoco", "cuore", "daino", "dieci", "faina", "fiaba"];
 var lastrng = 0;
 var imagerng;
